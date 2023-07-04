@@ -1208,7 +1208,7 @@
         faskes.forEach((faskes) => {
             const marker = L.marker([faskes.coordinate[0], faskes.coordinate[1]], {
                 icon: L.icon({
-                    iconUrl: faskes.type.path,
+                    iconUrl: 'storage/'+faskes.type.path,
                     iconSize: [25, 25],
                     iconAnchor: [12.5, 12.5],
                 })
