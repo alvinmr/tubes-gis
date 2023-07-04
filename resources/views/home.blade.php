@@ -279,7 +279,7 @@
                 .then((res) => res.json())
                 .then(function(res) {
                     for (let i = 0; i < res.length; i++) {
-                        fetch(res[i].geojson)
+                        fetch('storage/'+res[i].geojson)
                             .then((geo) => geo.json())
                             .then((geo) => {
                                 L.geoJson(geo, {
@@ -332,7 +332,7 @@
                     });
 
                     for (let i = 0; i < res.length; i++) {
-                        fetch(res[i].geojson)
+                        fetch('storage/'+res[i].geojson)
                             .then((geo) => geo.json())
                             .then((geo) => {
                                 L.geoJson(geo, {
@@ -385,7 +385,7 @@
                     });
 
                     for (let i = 0; i < res.length; i++) {
-                        fetch(res[i].geojson)
+                        fetch('storage/'+res[i].geojson)
                             .then((geo) => geo.json())
                             .then((geo) => {
                                 L.geoJson(geo, {
@@ -438,7 +438,7 @@
                     });
 
                     for (let i = 0; i < res.length; i++) {
-                        fetch(res[i].geojson)
+                        fetch('storage/'+res[i].geojson)
                             .then((geo) => geo.json())
                             .then((geo) => {
                                 L.geoJson(geo, {
@@ -496,7 +496,7 @@
                         });
 
                         for (let i = 0; i < res.length; i++) {
-                            fetch(res[i].geojson)
+                            fetch('storage/'+res[i].geojson)
                                 .then((geo) => geo.json())
                                 .then((geo) => {
                                     L.geoJson(geo, {
@@ -549,7 +549,7 @@
                         });
 
                         for (let i = 0; i < res.length; i++) {
-                            fetch(res[i].geojson)
+                            fetch('storage/'+res[i].geojson)
                                 .then((geo) => geo.json())
                                 .then((geo) => {
                                     L.geoJson(geo, {
@@ -602,7 +602,7 @@
                         });
 
                         for (let i = 0; i < res.length; i++) {
-                            fetch(res[i].geojson)
+                            fetch('storage/'+res[i].geojson)
                                 .then((geo) => geo.json())
                                 .then((geo) => {
                                     L.geoJson(geo, {
@@ -655,7 +655,7 @@
                         });
 
                         for (let i = 0; i < res.length; i++) {
-                            fetch(res[i].geojson)
+                            fetch('storage/'+res[i].geojson)
                                 .then((geo) => geo.json())
                                 .then((geo) => {
                                     L.geoJson(geo, {
@@ -729,7 +729,7 @@
                         .then((res) => res.json())
                         .then(function(res) {
                             for (let i = 0; i < res.length; i++) {
-                                fetch(res[i].geojson)
+                                fetch('storage/'+res[i].geojson)
                                     .then((geo) => geo.json())
                                     .then((geo) => {
                                         L.geoJson(geo, {
@@ -782,7 +782,7 @@
                             });
 
                             for (let i = 0; i < res.length; i++) {
-                                fetch(res[i].geojson)
+                                fetch('storage/'+res[i].geojson)
                                     .then((geo) => geo.json())
                                     .then((geo) => {
                                         L.geoJson(geo, {
@@ -835,7 +835,7 @@
                             });
 
                             for (let i = 0; i < res.length; i++) {
-                                fetch(res[i].geojson)
+                                fetch('storage/'+res[i].geojson)
                                     .then((geo) => geo.json())
                                     .then((geo) => {
                                         L.geoJson(geo, {
@@ -888,7 +888,7 @@
                             });
 
                             for (let i = 0; i < res.length; i++) {
-                                fetch(res[i].geojson)
+                                fetch('storage/'+res[i].geojson)
                                     .then((geo) => geo.json())
                                     .then((geo) => {
                                         L.geoJson(geo, {
@@ -979,7 +979,7 @@
                     .then((res) => res.json())
                     .then(function(res) {
                         for (let i = 0; i < res.length; i++) {
-                            fetch(res[i].geojson)
+                            fetch('storage/'+res[i].geojson)
                                 .then((geo) => geo.json())
                                 .then((geo) => {
                                     L.geoJson(geo, {
@@ -1032,7 +1032,7 @@
                         });
 
                         for (let i = 0; i < res.length; i++) {
-                            fetch(res[i].geojson)
+                            fetch('storage/'+res[i].geojson)
                                 .then((geo) => geo.json())
                                 .then((geo) => {
                                     L.geoJson(geo, {
@@ -1085,7 +1085,7 @@
                         });
 
                         for (let i = 0; i < res.length; i++) {
-                            fetch(res[i].geojson)
+                            fetch('storage/'+res[i].geojson)
                                 .then((geo) => geo.json())
                                 .then((geo) => {
                                     L.geoJson(geo, {
@@ -1138,7 +1138,7 @@
                         });
 
                         for (let i = 0; i < res.length; i++) {
-                            fetch(res[i].geojson)
+                            fetch('storage/'+res[i].geojson)
                                 .then((geo) => geo.json())
                                 .then((geo) => {
                                     L.geoJson(geo, {
