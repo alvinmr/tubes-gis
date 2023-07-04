@@ -1267,12 +1267,12 @@
                 if (index === 0) {
                     content += `
                 <div class="carousel-item active">
-                    <img src="${image}" class="d-block w-100" alt="Faskes image">
+                    <img src="storage/${image}" class="d-block w-100" alt="Faskes image">
                 </div>`
                 } else {
                     content += `
                 <div class="carousel-item">
-                    <img src="${image}" class="d-block w-100" alt="Faskes image">
+                    <img src="storage/${image}" class="d-block w-100" alt="Faskes image">
                 </div>`
                 }
             });
